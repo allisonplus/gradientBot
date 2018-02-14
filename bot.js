@@ -10,7 +10,7 @@ const responses = require('./responses.json'); // Responses array.
 require('dotenv').config(); // Require .env NPM package.
 
 // Testing Flag
-const dev = false;
+const dev = true;
 
 // Global VARS
 const randomNum = helpers.randomNum;
@@ -47,7 +47,7 @@ function tweetIt() {
 
 	createJsonFile(obj);
 
-	var command = dev ? 'processing-java --sketch=`pwd`/assets/ --run' : './assets/assets';
+	var command = dev ? 'xvfb-run processing-java --sketch=`pwd`/assets/ --run' : './assets/assets';
 
 	exec(command, processing);
 
