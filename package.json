@@ -5,9 +5,10 @@
   "main": "bot.js",
   "dependencies": {
     "axios": "^0.16.2",
+    "cloudinary": "",
     "dotenv": "^4.0.0",
     "hex-rgb": "^1.0.0",
-    "twit": "^2.2.9"
+    "twit": "^2.2.11"
   },
   "devDependencies": {},
   "scripts": {
