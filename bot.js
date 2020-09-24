@@ -30,7 +30,7 @@ const tweetInterval = hour * 8; // for actual bot timing
 // const tweetInterval = 12000; // for testing bot timing
 
 // Get the twitter user stream (for responses to bot).
-const stream = T.stream('user');
+const stream = T.stream('statuses/filter', { track: '@deltron_f' });
 
 // Initial bot functionality.
 function tweetIt() {
