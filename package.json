@@ -4,10 +4,10 @@
   "description": "A twitter bot for gradients",
   "main": "bot.js",
   "dependencies": {
-    "axios": "^0.16.2",
+    "axios": "^0.20.0",
     "dotenv": "^4.0.0",
     "hex-rgb": "^1.0.0",
-    "twit": "^2.2.9"
+    "twit": "^2.2.11"
   },
   "devDependencies": {},
   "scripts": {
