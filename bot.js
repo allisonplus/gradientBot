@@ -9,7 +9,7 @@ const helpers = require('./helpers.js'); // Helper functions.
 const responses = require('./responses.json'); // Responses array.
 require('dotenv').config(); // Require .env NPM package.
 
-// Testing Flag
+// Testing Flag!
 const dev = false;
 
 // Global VARS
